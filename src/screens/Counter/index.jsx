@@ -27,7 +27,7 @@ function Counter() {
           </span>
         </div>
       </div>
-      <Link className="button" to={ROUTES.HOME}>
+      <Link className="button bottom" to={ROUTES.HOME}>
         Go back
       </Link>
     </>

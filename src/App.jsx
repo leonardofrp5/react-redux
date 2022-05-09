@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Counter from './screens/Counter';
 import Home from './screens/Home';
+import NotFound from './screens/NotFound';
 import { ROUTES } from './Routes';
 import './App.css';
 
@@ -14,8 +15,9 @@ function App() {
       <header className="App-header">
         <BrowserRouter>
           <Routes>
-            <Route path={ROUTES.HOME} element={<Home />} />
+            <Route index path={ROUTES.HOME} element={<Home />} />
             <Route path={ROUTES.COUNTER} element={<Counter />} />
+            <Route path={ROUTES.NOT_FOUND} element={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </header>
