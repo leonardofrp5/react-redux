@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { getCharactersActions, clearCharacterActions } from '../../actions/characterActions';
 import { ROUTES } from '../../Routes';
 import { getCharacters } from '../../services/index';
-// import { Link } from 'react-router-dom';
 import './styles.css';
 
 function CardCharacter() {
