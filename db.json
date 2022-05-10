@@ -1,0 +1,11 @@
+{
+  "countries": [
+    { "id": 1, "capital": "Bogotá", "country": "Colombia" },
+    { "id": 2, "capital": "Santiago", "country": "Chile" },
+    { "id": 3, "capital": "Lima", "country": "Perú" },
+    { "id": 4, "capital": "París", "country": "Francia" },
+    { "id": 5, "capital": "Madrid", "country": "España" },
+    { "id": 6, "capital": "Tokyo", "country": "Japón" },
+    { "id": 7, "capital": "Berlin", "country": "Alemania" }
+  ]
+}
