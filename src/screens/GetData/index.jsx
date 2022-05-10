@@ -29,7 +29,7 @@ function CardCharacter() {
       <div className="container-character">
         {characters.length > 0
           ? characters.map(item => (
-              <Link to={`/character/${item.id}`} key={item.id}>
+              <div key={item.id}>
                 <div className="sectionn">
                   <img src={item.image} alt={item.name} />
                   <div className="section-content">
@@ -37,7 +37,7 @@ function CardCharacter() {
                     <span className="item-info">{item.name}</span>
                   </div>
                 </div>
-              </Link>
+              </div>
             ))
           : 'Loading...'}
       </div>

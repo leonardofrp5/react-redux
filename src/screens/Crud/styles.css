@@ -1,0 +1,13 @@
+.headerContries {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.headerTitle {
+  margin: 10px;
+}
+
+.delete {
+  cursor: pointer;
+}
