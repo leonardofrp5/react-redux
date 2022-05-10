@@ -7,6 +7,6 @@ const store = configureStore({
   }
 });
 
-store.subscribe(() => console.log(store));
+store.subscribe(() => console.log());
 
 export default store;
